@@ -1,0 +1,75 @@
+header, aside, main, footer {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(252, 134, 104);
+}
+
+header{
+    margin: 10px;
+    padding: 30px;
+    
+}
+
+main{
+    float: right;
+    width: 65%;
+    margin: 10px;
+    text-align: justify;
+    margin-bottom: 300px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    padding: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    max-width: 30%;
+}
+
+section{
+    margin: auto;
+    width: 31%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+     clear: both;
+     margin: 10px;
+     padding: 30px;
+}
+
+#primero{
+    float: left;    
+}
+
+#segundo{
+    float: left;
+}
+
+#tercero{
+    float: left;
+}
+
+p{
+    text-align: center;
+    overflow: hidden;
+}
+
+#container{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+body{
+    background-color:  rgb(172, 170, 255);
+}
